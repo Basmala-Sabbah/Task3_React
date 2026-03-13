@@ -1,0 +1,191 @@
+
+:root {
+    --mainColor: rgb(26, 188, 156);
+    --subColor: rgb(44, 62, 80);
+}
+.dark {
+    color: var(--subColor);
+}
+.navbar {
+    background-color: #2c3e50;
+    padding: 15px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+    
+}
+.SB {
+    margin-left: 100px;
+}
+
+.SB h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.navbar a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar a:hover{
+    color: var(--mainColor);
+}
+
+
+
+
+
+
+.image{
+    width: 200px;
+}
+.header {
+    height: 100vh;
+    background-color: var(--mainColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1 {
+    font-size: 74px;
+    font-weight: 700;
+}
+.header p {
+    font-size: 22px;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+}
+.star {
+    position: relative;
+    text-align: center;
+    color: var(--subColor);
+}
+.star i {
+    font-size: 30px;
+}
+.star::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -110px;
+    background-color: var(--subColor);
+    width: 100px;
+    height: 10%;
+}
+.star::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -110px;
+    background-color: var(--subColor);
+    width: 100px;
+    height: 10%;
+}
+
+
+
+.portfolio h2 {
+    font-size: 3rem;
+    color: var(--subColor);
+}
+
+
+
+.about {
+    background-color: var(--mainColor);
+}
+.about h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+.about .left-text,
+.about .right-text {
+    width: 30%;
+    color: #fff;
+}
+.about button {
+    padding: 20px 60px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
+
+.about button:hover{
+    background-color: var(--subColor);
+    border: #2c3e50;
+    
+}
+
+
+
+
+.contact h2 {
+    font-size: 3rem;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact form{
+    margin-top: 30px;
+}
+.form-floating input {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #bebebe;
+}
+.contact button {
+    padding: 20px 35px;
+    background-color: var(--mainColor);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
+.footer {
+    background-color: var(--subColor);
+    color: #fff;
+    
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.icons i:hover{
+  background-color: var(--mainColor);
+}
+.footer h3 {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer i {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: inline-flex;
+    width: 3.25rem;
+    height: 3.25rem;
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.footer span {
+    color: var(--mainColor);
+    text-decoration: underline;
+    cursor: pointer;
+}
